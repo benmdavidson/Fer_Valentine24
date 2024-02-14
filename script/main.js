@@ -259,6 +259,9 @@ const animationTimeline = () => {
     .to(
       ".last-smile",
       0.5,
+      {
+         scale: 0.15
+      },
       "+=1"
     );
 
