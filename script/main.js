@@ -259,9 +259,6 @@ const animationTimeline = () => {
     .to(
       ".last-smile",
       0.5,
-      {
-        rotation: 90,
-      },
       "+=1"
     );
 
